@@ -15,3 +15,12 @@ class MyStore:
     @property
     def login_page(self):
         return LoginPage(driver=self._driver)
+
+    @property
+    def cart_page(self):
+        return CartPage(driver=self._driver)
+
+    @property
+    def url(self):
+        return self._driver.current_url
+
