@@ -1,5 +1,5 @@
-# TITLE HERE
-lorem
+# Webb app UI testing
+Example testing harness around a mock ecommerce webapp.  
 
 ### Getting Started
 - install Python3.8+
